@@ -20,6 +20,7 @@ function App() {
         placeholder="Enter task"
       />
       <button onClick={addTodo}>Add from branchA</button>
+      <button onClick={addTodo}>Add fromB</button>
       <ul>
         {todos.map((todo, idx) => (
           <li key={idx}>{todo}</li>
